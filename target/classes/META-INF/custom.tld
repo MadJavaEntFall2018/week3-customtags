@@ -1,0 +1,39 @@
+<taglib>
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>2.0</jsp-version>
+    <short-name>My Tag Lib Demos</short-name>
+
+    <!-- uri can be whatever you choose, it does not have to point to a real url
+         the uri willl be used in the jsps that use the tag lib -->
+    <uri>http://danmiller.com/tags</uri>
+
+    <tag>
+        <!-- name defines the tag that will be  used in jsps to call your tag code -->
+        <name>Hello</name>
+        <!-- tag-class is the fully qualified class containnig the doTag(0
+             method that should run when <Hello> is used -->
+        <tag-class>com.danmiller.customtags.HelloWorldTag</tag-class>
+        <!-- body content is used to pass values to  your tag code -->
+        <body-content>empty</body-content>
+    </tag>
+
+    <tag>
+        <!-- name defines the tag that will be  used in jsps to call your tag code -->
+        <name>WelcomeMessage</name>
+        <!-- tag-class is the fully qualified class containnig the doTag(0
+             method that should run when <WelcomeMessage> is used -->
+        <tag-class>com.danmiller.customtags.WelcomeMessageTag</tag-class>
+        <!-- body content is used to pass values to  your tag code -->
+        <body-content>empty</body-content>
+    </tag>
+
+    <tag>
+        <!-- name defines the tag that will be  used in jsps to call your tag code -->
+        <name>Holiday Message</name>
+        <!-- tag-class is the fully qualified class containnig the doTag(0
+             method that should run when <WelcomeMessage> is used -->
+        <tag-class>com.danmiller.customtags.HolidayTag</tag-class>
+        <!-- body content is used to pass values to  your tag code -->
+        <body-content>empty</body-content>
+    </tag>
+</taglib>
