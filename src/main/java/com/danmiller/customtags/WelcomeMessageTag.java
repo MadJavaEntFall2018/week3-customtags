@@ -16,15 +16,18 @@ public class WelcomeMessageTag extends SimpleTagSupport {
     private static final LocalTime EVENING = LocalTime.of(16, 0, 0);
     private static final LocalTime NIGHT = LocalTime.of(21, 0, 0);
     
+    private static final LocalDate NEWYEARSDAY = LocalDate.of(2018,1,1);
     private static final LocalDate GROUNDHOGDAY = LocalDate.of(2018,2,2);
+    private static final LocalDate VALENTINESDAY = LocalDate.of(2018,2,15);
+    private static final LocalDate EASTER = LocalDate.of(2018,4,1);
+    private static final LocalDate THANKSGIVING = LocalDate.of(2018,11,22);
+    private static final LocalDate CHRISTMAS = LocalDate.of(2018,12,25);
 
     @Override
     public void doTag() throws JspException, IOException {
         super.doTag();
-        JspWriter out = getJspContext().getOut();
 
         getGreeting();
-        out.println("\r\n");
         getHoliday();
 
     }
@@ -47,11 +50,20 @@ public class WelcomeMessageTag extends SimpleTagSupport {
 
     public void getHoliday() throws JspException, IOException {
         JspWriter out = getJspContext().getOut();
-        //LocalDate currentDate = LocalDate.now();
-        LocalDate date = LocalDate.parse("2018-02-02",DateTimeFormatter.ofPattern("yyyy-MM-dd"));
+        LocalDate date = LocalDate.parse("2018-01-01",DateTimeFormatter.ofPattern("yyyy-MM-dd"));
 
-        if (date.equals(GROUNDHOGDAY)) {
+        if (date.equals(NEWYEARSDAY)) {
+            out.println("Happy New Year");
+        } else if (date.equals(GROUNDHOGDAY)) {
             out.println("Today is Ground Hogs Day");
+        } else if (date.equals(VALENTINESDAY)) {
+            out.println("Happy Valentines Day");
+        } else if (date.equals(EASTER)) {
+            out.println("Happy Easter");
+        } else if (date.equals(THANKSGIVING)) {
+            out.println("Happy Thanksgiving");
+        } else if (date.equals(CHRISTMAS)) {
+            out.println("Merry Christmas");
         } else {
             out.println(date);
         }
