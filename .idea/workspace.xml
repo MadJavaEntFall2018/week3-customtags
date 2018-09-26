@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a20727e4-ff6d-445b-9bd4-a103e3cda71e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/danmiller/customtags/WelcomeMessageTagTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/danmiller/customtags/WelcomeMessageTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/danmiller/customtags/WelcomeMessageTag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/danmiller/customtags/WelcomeMessageTag.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/danmiller/customtags/WelcomeMessageTag.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/customtags.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/customtags.jar" afterDir="false" />
-    </list>
+    <list default="true" id="a20727e4-ff6d-445b-9bd4-a103e3cda71e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +14,7 @@
     <session id="1452575843">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
@@ -31,8 +25,9 @@
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -73,8 +68,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/danmiller/customtags/WelcomeMessageTag.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-15">
-              <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+            <state relative-caret-position="126">
+              <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,7 +80,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/danmiller/customtags/WelcomeMessageTagTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
+            <state relative-caret-position="375">
               <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -173,7 +168,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -254,6 +248,7 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -301,17 +296,18 @@
       <workItem from="1537755610766" duration="739000" />
       <workItem from="1537757854282" duration="349000" />
       <workItem from="1537839075161" duration="4115000" />
+      <workItem from="1537847596181" duration="580000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19740000" />
+    <option name="totallyTimeSpent" value="20320000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21912351" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22310758" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -325,7 +321,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32919255" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.34253246" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32985386" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
@@ -406,29 +402,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/target/maven-archiver/pom.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/danmiller/customtags/WelcomeMessageTagTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/danmiller/customtags/WelcomeMessageTag.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+        <state relative-caret-position="126">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/danmiller/customtags/WelcomeMessageTag.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/danmiller/customtags/WelcomeMessageTagTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        <state relative-caret-position="375">
+          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
