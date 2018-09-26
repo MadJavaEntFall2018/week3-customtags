@@ -68,6 +68,4 @@ public class WelcomeMessageTag extends SimpleTagSupport {
             out.println(date);
         }
     }
-
-
 }
